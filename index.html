@@ -11,14 +11,18 @@
   <div id="js-menu" class="menu"></div>
 
   <script type="text/template" id="cart-template">
-
+    <p><%=name%></p>
+    <p><%=brewery%></p>
+    <p><%=cost%></p>
   </script>
 
   <script type="text/template" id="menu-template">
+  <div class="beer">
   <p><%=name%></p>
   <p><%=brewery%></p>
   <p><%=cost%></p>
-  <button>add to<br>cart</button>
+  <button class="add-beer">add to<br>cart</button>
+  </div>
   </script>
 
 <script src="bower_components/jquery/dist/jquery.js"></script>
